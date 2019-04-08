@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>AnotacionServlet</servlet-name>
+		<servlet-class>com.uca.capas.servlets.AnotacionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AnotacionServlet</servlet-name>
+		<url-pattern>/main</url-pattern>
+	</servlet-mapping>
+</web-app>
